@@ -1,0 +1,18 @@
+@import 'base/zeroing';
+@import 'base/fonts';
+@import 'base/variables';
+
+*{
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'base/buttons';
+@import 'base/titles';
+@import 'blocks/advantages';
