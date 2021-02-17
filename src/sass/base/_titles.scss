@@ -5,4 +5,43 @@
     line-height: 23px;
     text-align: center;
     text-transform: uppercase;
+    &_mod {
+        color: #ffffff;
+        text-transform: none;
+        margin-top: 20px;
+    }
+}
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $main_color;
+    margin: 20px auto 0;
+}
+.descr {
+    width: 879px;
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin: 17px auto 0;
+    &_mod {
+        color: #ffffff;
+        width: 100%;
+        font-size: 19px;
+        line-height: 27px;
+    }
+}
+.item-title {
+    color: $main_color;;
+    font-size: 16px;
+    font-weight: 700;
+}
+.item-text {
+    margin-top: 12px;
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
 }

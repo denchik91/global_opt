@@ -1,0 +1,22 @@
+.work {
+    min-height: 620px;
+    padding-top: 50px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item {
+        width: 360px;
+        text-align: center;
+    }
+    .item-title {
+        margin-top: 27px;
+    }
+    .item-text {
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+}
