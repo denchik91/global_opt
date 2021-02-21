@@ -1,0 +1,67 @@
+.prices {
+    &__consultation {
+        position: relative;
+        margin-top: 55px;
+        &-title {
+            color: #3a3a3a;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+        }
+        &-icon {
+            position: absolute;
+            left: 50%;           
+            top: 0;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            width: 120px;
+            &>div {
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                border: 2px solid $main_color;
+                border-radius: 100%;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 50%;
+                    transform: translateY(-50%);
+                }
+            
+            }    
+        }
+    }
+    
+    &__form {
+        position: relative;
+        margin-top: 70px;
+        border: 1px solid #898989;
+        height: 166px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__input {       
+        input {
+            width: 270px;
+            height: 50px;
+            border: 1px solid #898989;
+            border-radius: 50px;
+            padding: 0 25px;
+        }
+        #tel {
+            margin: 0 5px;
+        }
+    }
+    .btn_wrapper {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+        background-color: #fff;
+        width: 210px;
+        height: 45px;
+        padding: 0 15px;
+    }
+    
+}

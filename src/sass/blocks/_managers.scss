@@ -1,0 +1,18 @@
+.managers {
+    background-image: url('../img/manager_bg.jpg');
+    padding-top: 58px;
+    height: 342px;
+    &__icon {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        border: 2px solid #ffffff;
+        border-radius: 100%;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+} 
